@@ -103,16 +103,21 @@ input[type="search"] {
 
 .filters {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 40px;
+    align-items: center;
+    font-weight: 700;
 }
 
 .filters ul {
     display: flex;
     font-size: 17px;
+    flex-wrap: wrap;
 }
 
 .filtersBtn {
     border: #F2F2F2 2px solid;
+    display: block;
     padding: 10px;
     border-radius: 20px;
     margin: 0 20px 0 0;
