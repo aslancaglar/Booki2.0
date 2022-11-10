@@ -117,6 +117,7 @@
                         display: flex;
                         font-size: 17px;
                         flex-wrap: wrap;
+                        row-gap: 10px;
                     }
                     
                     .filtersBtn {
@@ -178,9 +179,9 @@
                     }
                     
                     .hotelCard {
-                        min-width: 200px;
-                        width: 243px;
-                        height: 199px;
+                        min-width: 30%;
+                        max-width: 30%;
+                        min-height: 199px;
                         background-color: #fff;
                         border-radius: 20px;
                         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
@@ -262,8 +263,12 @@
                         display: flex;
                     }
                     
+                    .popHotelImg {
+                        width: 80%;
+                    }
+                    
                     .popHotelImg img {
-                        width: 137px;
+                        width: 100%;
                         height: 143px;
                         object-fit: cover;
                         border-radius: 20px 0 0 20px;
@@ -409,7 +414,7 @@
                             margin-top: 20px;
                         }
                         .popAccommodationListItem {
-                            width: 100%;
+                            min-width: 100%;
                             height: 143px;
                             background-color: #ffffff;
                             border-radius: 20px;
@@ -481,7 +486,7 @@
                         }
                     }
                     
-                    @media (min-width: 769px) and (max-width: 1024px) {
+                    @media (min-width: 768px) and (max-width: 1024px) {
                         main {
                             width: 100%;
                             display: flex;
@@ -507,6 +512,23 @@
                             flex-direction: row;
                             gap: 20px;
                             margin-top: 20px;
+                        }
+                        .popAccommodationListItem {
+                            min-width: 30%;
+                            height: 143px;
+                            background-color: #ffffff;
+                            border-radius: 20px;
+                            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+                        }
+                        .popHotelImg {
+                            width: 90%;
+                        }
+                        .popHotelImg img {
+                            width: 100%;
+                            height: 143px;
+                            object-fit: cover;
+                            border-radius: 20px 0 0 20px;
+                            border: #ffffff solid 5px;
                         }
                         .activitiesList li {
                             width: 302px;
