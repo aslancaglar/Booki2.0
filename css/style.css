@@ -492,7 +492,7 @@
                         }
                     }
                     
-                    @media (min-width: 768px) and (max-width: 1024px) {
+                    @media (min-width: 768px) and (max-width: 992px) {
                         main {
                             width: 100%;
                             display: flex;
