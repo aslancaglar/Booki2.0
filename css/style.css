@@ -126,7 +126,6 @@
                         padding: 10px;
                         border-radius: 20px;
                         margin: 0 20px 0 0;
-                        min-width: none;
                     }
                     
                     .filtersBtn:hover {
@@ -555,7 +554,6 @@
                         .popHotelImg {
                             min-width: 45%;
                             max-width: 45%;
-                            !important
                         }
                         .popHotelImg img {
                             width: 100%;
