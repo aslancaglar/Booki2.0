@@ -179,8 +179,8 @@
                     
                     .hotelCard {
                         cursor: pointer;
+                        flex: 1;
                         min-width: 30%;
-                        max-width: 30%;
                         min-height: 199px;
                         background-color: #fff;
                         border-radius: 20px;
